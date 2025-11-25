@@ -17,7 +17,7 @@ namespace Operators_in_C_
             Console.WriteLine("Arithmetic (Addition, Multiplication, Division)");
             Console.WriteLine($"a + b = {num1 + num2}");
             Console.WriteLine($"c * d = {num3 * num4}");
-            Console.WriteLine($"e / f = {num5 * num6}");
+            Console.WriteLine($"e % f = {num5 * num6}");
 
 
             Console.WriteLine("Increment and Decrement");
@@ -35,3 +35,4 @@ namespace Operators_in_C_
         }
     }
 }
+
