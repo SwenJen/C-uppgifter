@@ -14,7 +14,7 @@ namespace Password_Checker_in_C_
             string password2 = Console.ReadLine();
 
             // Length
-            if (password1.Length >= 6 || password2.Length >= 6)
+            if (password1.Length >= 6 && password2.Length >= 6)
             {
             }
             else
@@ -38,7 +38,7 @@ namespace Password_Checker_in_C_
             }
 
             // Empty
-            if (password1 + password2 != "")
+            if (string.IsNullOrEmpty(password1) || string.IsNullOrEmpty(password2))
             {
             }
             else
@@ -48,3 +48,4 @@ namespace Password_Checker_in_C_
         }
     }
 }
+
